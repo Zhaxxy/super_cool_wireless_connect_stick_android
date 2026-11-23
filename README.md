@@ -46,7 +46,7 @@ which python3
 
 now you can actually run the command
 ```
-su -c '/data/data/com.termux/files/home/venv/bin/python3 super_cool_wireless_connect_stick_android.py
+su -c '/data/data/com.termux/files/home/venv/bin/python3 super_cool_wireless_connect_stick_android.py'
 ```
 itll start hosting a website on port 10067 where you can then toggle the ftp server and usb mass storage on and off (cant have both at same time to avoid corruptions)
 ```
