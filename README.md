@@ -11,6 +11,28 @@ this is useful if you have a device that only takes stuff via usb mass storage, 
 * [MSD](https://github.com/chenxiaolong/MSD) must already be setup
 
 
-# MSD app setup
+# inital MSD app setup
 first of all you want add a new mass storage device and create new writeable disk image and set it up normally with your device to plug into (eg PS4) and then format the usb using that device (ps4 can format it as exfat if you press options on the format as external formatted device) basically you want the phone to be functioning as a usb mass storage device and it to be formated
 ### it will also tell you the img path, you will need this
+
+# initial Termux setup
+after you did the msd app stuff, youll need to get the `super_cool_wireless_connect_stick_android.py` file onto termux, after you have done that i recommend putting it in its own folder and cd to that folder, you now need to install some things
+```
+pkg install util-linux
+```
+
+```
+pkg install python
+```
+after installing that, you need to make a venv
+```
+python3 -m venv venv
+```
+activate it
+```
+. venv/bin/activate
+```
+and pip install pyftpdlib
+```
+pip install pyftpdlib
+```
