@@ -54,3 +54,6 @@ after you are done, you need to kill this command, run
 su -c "pkill -f '/data/data/com.termux/files/home/venv/bin/python3 super_cool_wireless_connect_stick_android.py'"
 ```
 the command it says here is important and you must run it as even after CRTL + C and even exit Termux itll still be running, this command isnt gonna change as long as your setup does not so you can copy it from the cmd output and run it whenever you want to turn the server off
+
+# start after initial setup
+after inital setup you just need to run the termux command which you made before with the which python3 thing, if it says errors on boot try killing the process as explained earlier
