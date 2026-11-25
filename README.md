@@ -4,6 +4,8 @@ Simple python script to be used with rooted android phones to have a wireless us
 # Why does this exist?
 this is useful if you have a device that only takes stuff via usb mass storage, and having to constantly plug in an out a usb stick from that device to your pc can be annoying, with this you can keep the rooted phone plugged in the device at all times (such as for PS4/PS5 savedatas)
 
+# Rememberer, you must turn off ftp for the files to save, do not plug it out/turn off while ftp is on
+
 # Prerequisites
 * Android device must be rooted
 * You must have termux setup
